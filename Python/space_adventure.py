@@ -43,5 +43,5 @@ def space_adventure():
         elif ship_status["fuel"] >= 150:
             print("\nYou found the way home! VICTORY.")
             break
-    space_adventure()
-    print("Thanks for playing!")
+space_adventure()
+print("Thanks for playing!")
