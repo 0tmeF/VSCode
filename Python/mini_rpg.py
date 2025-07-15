@@ -57,6 +57,5 @@ def mini_rpg():
         print("\nContinue? (y/n)")
         if input().lower() != "y":
             break
-
-if __name__ == "__main__":
-    mini_rpg()
+mini_rpg()
+print("Thanks for playing!")
